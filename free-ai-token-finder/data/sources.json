@@ -1,0 +1,3027 @@
+{
+  "schema_version": 1,
+  "revision": "2026-11-20.2",
+  "pages": {
+    "cf": {
+      "provider": "Cloudflare",
+      "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+    },
+    "router": {
+      "provider": "OpenRouter",
+      "url": "https://openrouter.ai/collections/free-models/"
+    },
+    "groq": {
+      "provider": "Groq",
+      "url": "https://console.groq.com/docs/rate-limits"
+    },
+    "groq-billing": {
+      "provider": "Groq",
+      "url": "https://console.groq.com/docs/billing-faqs"
+    },
+    "trae": {
+      "provider": "TRAE",
+      "url": "https://docs.trae.cn/ide_plans-and-billing"
+    },
+    "trae-event": {
+      "provider": "TRAE",
+      "url": "https://docs.trae.cn/ide_invite-new-users-to-earn-credits-for-traecode"
+    },
+    "qoder": {
+      "provider": "Qoder",
+      "url": "https://docs.qoder.cn/events/100credits"
+    },
+    "bailian": {
+      "provider": "阿里云百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/new-free-quota"
+    },
+    "bailian-price": {
+      "provider": "阿里云百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing"
+    },
+    "tkhub": {
+      "provider": "腾讯云 TokenHub",
+      "url": "https://cloud.tencent.com/document/product/1823/130053"
+    },
+    "eleven": {
+      "provider": "ElevenLabs",
+      "url": "https://elevenlabs.io/pricing"
+    },
+    "eleven-policy": {
+      "provider": "ElevenLabs",
+      "url": "https://elevenlabs.io/docs/overview/administration/billing"
+    },
+    "eleven-api": {
+      "provider": "ElevenLabs",
+      "url": "https://elevenlabs.io/docs/help-center/technical/how-much-does-it-cost-to-use-the-api"
+    },
+    "livekit": {
+      "provider": "LiveKit",
+      "url": "https://docs.livekit.io/deploy/admin/quotas-and-limits/"
+    },
+    "zed": {
+      "provider": "Zed",
+      "url": "https://zed.dev/education"
+    },
+    "runway": {
+      "provider": "Runway",
+      "url": "https://runway.com/pricing"
+    },
+    "sf": {
+      "provider": "硅基流动",
+      "url": "https://www.siliconflow.cn/pricing"
+    },
+    "sf-limits": {
+      "provider": "硅基流动",
+      "url": "https://docs.siliconflow.cn/docs/userguide/faqs/rate-limit-and-upgradation"
+    },
+    "somark": {
+      "provider": "SoMark",
+      "url": "https://raw.githubusercontent.com/SoMarkAI/OXR/main/README_CN.md"
+    },
+    "official-officeace-daily": {
+      "provider": "华为云 OfficeAce",
+      "url": "https://activity.huaweicloud.com/officeace.html"
+    },
+    "official-huawei-codearts-contest-checkin": {
+      "provider": "华为云码道",
+      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html"
+    },
+    "official-huawei-codearts-free-checkin": {
+      "provider": "华为云码道",
+      "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0004.html"
+    },
+    "official-meoo-login": {
+      "provider": "秒悟",
+      "url": "https://docs.meoo.com/pricing"
+    },
+    "official-sensetime-raccoon-daily": {
+      "provider": "商汤小浣熊",
+      "url": "https://doc.xiaohuanxiong.com/zh-hans/saas-user/user_manual/office_app/points_rules.html"
+    },
+    "official-ace-music-daily": {
+      "provider": "ACE Music",
+      "url": "https://acemusic.ai/zh/help/articles/credits-usage/"
+    },
+    "official-astudio-daily": {
+      "provider": "科大讯飞 AStudio",
+      "url": "https://agent.xfyun.cn/studio-guide/pricing"
+    },
+    "official-openrouter-ernie55-free": {
+      "provider": "OpenRouter",
+      "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+    },
+    "official-wps-lingxi-checkin": {
+      "provider": "WPS 灵犀",
+      "url": "https://www.lingxi.cn/docs"
+    },
+    "official-drex-monthly": {
+      "provider": "Nace AI",
+      "url": "https://console.nace.ai/docs/drex/reference/pricing"
+    },
+    "official-intern-inkmonthly": {
+      "provider": "书生·端砚",
+      "url": "https://www.shlab.org.cn/news/5444294"
+    },
+    "official-tencent-adp-monthly": {
+      "provider": "腾讯云 ADP",
+      "url": "https://cloud.tencent.com/document/product/1759/139268"
+    },
+    "official-workbuddy-monthly": {
+      "provider": "腾讯 WorkBuddy",
+      "url": "https://www.workbuddy.cn/docs/workbuddy/Pricing"
+    },
+    "official-autoclaw-nov-week": {
+      "provider": "智谱 AutoClaw",
+      "url": "https://autoclaw.zhipuai.cn/blog/news/M11W3/"
+    },
+    "official-nous-qwen4free": {
+      "provider": "Nous Research",
+      "url": "https://portal.nousresearch.com/"
+    },
+    "official-reducto-standard-credit": {
+      "provider": "Reducto",
+      "url": "https://reducto.ai/pricing"
+    },
+    "official-telnyx-pretrial": {
+      "provider": "Telnyx",
+      "url": "https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts"
+    },
+    "official-vmodel-new": {
+      "provider": "VModel",
+      "url": "https://vmodel.ai/docs/api/pricing.html"
+    },
+    "official-zed-pro-trial": {
+      "provider": "Zed",
+      "url": "https://zed.dev/docs/account/plans-and-pricing"
+    },
+    "official-qianfan-new-coupon": {
+      "provider": "百度千帆",
+      "url": "https://cloud.baidu.com/doc/qianfan/index.html"
+    },
+    "official-siliconflow-id-coupon": {
+      "provider": "硅基流动",
+      "url": "https://www.siliconflow.cn/news/od7wj9rr23p95uhihmhrombp"
+    },
+    "official-scnet-new-flash": {
+      "provider": "超算互联网",
+      "url": "https://www.scnet.cn/home/subject/maas/index.html"
+    },
+    "official-autoclaw-upgrade": {
+      "provider": "智谱 AutoClaw",
+      "url": "https://autoclaw.zhipuai.cn/blog/news/autoclaw-2-2-0-upgrade-data-migration/"
+    },
+    "official-qoder-trial-300": {
+      "provider": "Qoder",
+      "url": "https://docs.qoder.cn/product-overview/billing-description"
+    },
+    "official-zcode-new-trial": {
+      "provider": "智谱 ZCode",
+      "url": "https://zcode.z.ai/cn/docs/configuration"
+    },
+    "official-bailian-student-credit": {
+      "provider": "阿里云百炼",
+      "url": "https://help.aliyun.com/zh/model-studio/introduction-to-yungongkaiwu"
+    },
+    "official-devin-flash-medium": {
+      "provider": "Devin",
+      "url": "https://docs.devin.ai/desktop/models"
+    },
+    "official-opencode-free-hy-longcat": {
+      "provider": "OpenCode",
+      "url": "https://opencode.ai/docs/console/models/"
+    },
+    "official-qiniu-nemotron-free": {
+      "provider": "七牛云",
+      "url": "https://www.qiniu.com/ai/models"
+    },
+    "official-ant-ling-monthly": {
+      "provider": "蚂蚁百灵",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/billing-upgrade/"
+    },
+    "official-edgeone-makers-models": {
+      "provider": "腾讯 EdgeOne",
+      "url": "https://pages.edgeone.ai/zh/document/limits-and-quotas"
+    },
+    "official-scnet-double11-new": {
+      "provider": "超算互联网",
+      "url": "https://www.scnet.cn/home/subject/double11/index.html"
+    },
+    "official-volc-billing": {
+      "provider": "火山方舟",
+      "url": "https://docs.volcengine.com/docs/billing-center/declining-savings-plan-instructions?lang=zh"
+    },
+    "official-volc-ark-new": {
+      "provider": "火山方舟",
+      "url": "https://docs.volcengine.com/docs/ark/free-inference-quota"
+    },
+    "official-cloudbase-wechat-growth-ai": {
+      "provider": "腾讯云开发",
+      "url": "https://docs.cloudbase.net/ai/ai-inspire-plan"
+    },
+    "official-doubao-desktop-checkin": {
+      "provider": "豆包",
+      "url": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/incentive-campaign-rules/f7f2c423-c770-44e7-9be4-bd67a28f074e.html"
+    },
+    "official-modelscope-daily-grain": {
+      "provider": "魔搭社区",
+      "url": "https://www.modelscope.cn/posts/435591"
+    },
+    "official-mobileclaw-daily": {
+      "provider": "移动云 MobileClaw",
+      "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11"
+    },
+    "official-rime-monthly": {
+      "provider": "Rime",
+      "url": "https://www.rime.ai/pricing"
+    },
+    "official-stepaudio-3-preview": {
+      "provider": "阶跃星辰",
+      "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details"
+    },
+    "official-doubao-desktop-firsttrial": {
+      "provider": "豆包",
+      "url": "https://www.doubao.com/work"
+    },
+    "official-buddyone-link-bonus": {
+      "provider": "腾讯 WorkBuddy",
+      "url": "https://www.workbuddy.cn/buddyone/"
+    },
+    "official-minicpm-ocr-preview": {
+      "provider": "面壁智能",
+      "url": "https://platform.modelbest.cn/console/docs/models"
+    },
+    "official-agnes-free-models": {
+      "provider": "Agnes AI",
+      "url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing"
+    },
+    "official-workbuddy-hy4flash-trial": {
+      "provider": "腾讯 WorkBuddy",
+      "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh"
+    },
+    "official-minimax-code-checkin": {
+      "provider": "MiniMax",
+      "url": "https://code.minimax.cn/docs/code/account/usage"
+    },
+    "official-opencode-harnesses": {
+      "provider": "OpenCode",
+      "url": "https://opencode.ai/docs/console/harnesses"
+    }
+  },
+  "offers": [
+    {
+      "id": "cloudflare-workers-free",
+      "title": "Cloudflare Workers AI 免费计划",
+      "provider": "Cloudflare",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "cadence": "daily",
+      "amount": "{amount} Neurons/日",
+      "eligibility": "Workers Free，部分模型另需付费方式，具体模型看定价表",
+      "timing": "每天 {reset} 刷新",
+      "no_upfront_payment": true,
+      "billing": "stops",
+      "billing_note": "免费计划超额请求失败",
+      "checks": [
+        {
+          "page": "cf",
+          "label": "Workers Free 表格的日额度",
+          "pattern": "Workers Free (?P<value>[\\d,]+) Neurons per day N/A",
+          "capture": "amount"
+        },
+        {
+          "page": "cf",
+          "label": "每日重置时间",
+          "pattern": "All limits reset daily at (?P<value>\\d{2}:\\d{2} UTC)",
+          "capture": "reset"
+        },
+        {
+          "page": "cf",
+          "label": "超额失败",
+          "pattern": "further operations will fail with an error"
+        },
+        {
+          "page": "cf",
+          "label": "免费档和付费档的分界",
+          "pattern": "you need to sign up for the Workers Paid plan"
+        },
+        {
+          "page": "cf",
+          "label": "API 和模型类别",
+          "pattern": "REST API.*?Image model pricing.*?Audio model pricing"
+        },
+        {
+          "page": "cf",
+          "label": "部分模型付费限制",
+          "pattern": "Some models require a paid billing method"
+        }
+      ]
+    },
+    {
+      "id": "openrouter-free-variants",
+      "title": "OpenRouter :free 模型",
+      "provider": "OpenRouter",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "{daily} 请求/日，{minute} 请求/分",
+      "eligibility": "使用带 :free 后缀的模型。基础上限无需购买额度，具体模型见免费模型页",
+      "timing": "按日限额，失败请求也计入",
+      "no_upfront_payment": true,
+      "billing": "stops",
+      "billing_note": "限额内模型用量不收费",
+      "checks": [
+        {
+          "page": "router",
+          "label": "免费后缀无需购额",
+          "pattern": "end in :free, do not require a credit purchase"
+        },
+        {
+          "page": "router",
+          "label": "基础分钟限额",
+          "pattern": "end in :free, are capped at (?P<value>[\\d,]+) requests per minute",
+          "capture": "minute"
+        },
+        {
+          "page": "router",
+          "label": "基础每日限额",
+          "pattern": "end in :free, are capped at [\\d,]+ requests per minute and (?P<value>[\\d,]+) requests per day",
+          "capture": "daily"
+        },
+        {
+          "page": "router",
+          "label": "失败请求计入",
+          "pattern": "Failed attempts count toward the daily cap"
+        },
+        {
+          "page": "router",
+          "label": "公开 API 接入",
+          "pattern": "same OpenAI-compatible chat completions endpoint"
+        },
+        {
+          "page": "router",
+          "label": "用量计费规则",
+          "pattern": "\\$0 model pricing, so its usage is not billed"
+        }
+      ]
+    },
+    {
+      "id": "groq-free-qwen",
+      "title": "Groq Free · Qwen3.8 27B",
+      "provider": "Groq",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "{daily} 请求/日，{minute} 请求/分",
+      "eligibility": "Groq Free 组织的基础限额，实际以组织 Limits 页为准",
+      "timing": "每个组织共享限额，按分钟和按日约束",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "触发限流后请求受限；升级 Developer 档需要付款方式",
+      "checks": [
+        {
+          "page": "groq",
+          "label": "免费档的模型分钟限额",
+          "pattern": "Free Plan Limits Developer Plan Limits.{0,2100}?qwen/qwen3\\.8-27b (?P<value>[\\d.]+K?)",
+          "capture": "minute"
+        },
+        {
+          "page": "groq",
+          "label": "免费档的模型日限额",
+          "pattern": "Free Plan Limits Developer Plan Limits.{0,2100}?qwen/qwen3\\.8-27b [\\d.]+K? (?P<value>[\\d.]+K?)",
+          "capture": "daily"
+        },
+        {
+          "page": "groq",
+          "label": "组织限额",
+          "pattern": "Rate limits apply at the organization level"
+        },
+        {
+          "page": "groq",
+          "label": "查看个人组织限额",
+          "pattern": "current, exact rate limits for your organization"
+        },
+        {
+          "page": "groq-billing",
+          "label": "升级支付要求",
+          "pattern": "upgrade from the Free tier to the Developer tier, you'll need to provide a valid payment method"
+        }
+      ]
+    },
+    {
+      "id": "trae-daily",
+      "title": "TRAE 免费账号每日签到",
+      "provider": "TRAE",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "{amount} 积分/日",
+      "eligibility": "免费账号在 TRAE 客户端签到",
+      "timing": "每笔积分有效 {days} 个自然日",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "额度用于 TRAE 内置模型，超额规则查账户用量",
+      "checks": [
+        {
+          "page": "trae",
+          "label": "免费用户签到额度",
+          "pattern": "免费用户可以通过以下途径获得积分.{0,210}?每日签到 每天 (?P<value>[\\d,]+) 积分",
+          "capture": "amount"
+        },
+        {
+          "page": "trae",
+          "label": "免费用户签到有效期",
+          "pattern": "免费用户可以通过以下途径获得积分.{0,210}?每日签到 每天 [\\d,]+ 积分。 (?P<value>\\d+) 个自然日",
+          "capture": "days"
+        },
+        {
+          "page": "trae",
+          "label": "产品内模型",
+          "pattern": "TRAE 内置模型"
+        },
+        {
+          "page": "trae",
+          "label": "客户端下载签到位置",
+          "pattern": "点击你的头像.{0,26}签到"
+        }
+      ]
+    },
+    {
+      "id": "trae-monthly",
+      "title": "TRAE 免费账号每月登录",
+      "provider": "TRAE",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "monthly",
+      "amount": "{amount} 积分/月",
+      "eligibility": "免费账号登录客户端",
+      "timing": "当月有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "积分用于 TRAE 内置模型，超额规则查账户用量",
+      "checks": [
+        {
+          "page": "trae",
+          "label": "免费用户月额度和当月有效期",
+          "pattern": "免费用户可以通过以下途径获得积分.{0,90}?每月登录赠送 (?P<value>[\\d,]+) 积分。 当前自然月",
+          "capture": "amount"
+        },
+        {
+          "page": "trae",
+          "label": "产品内模型",
+          "pattern": "TRAE 内置模型"
+        }
+      ]
+    },
+    {
+      "id": "trae-new",
+      "title": "TRAE 新用户注册福利",
+      "provider": "TRAE",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "{amount} 积分",
+      "eligibility": "首次注册 TRAE 的免费用户",
+      "timing": "一次性赠送，有效 {days} 个自然日",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "积分用于 TRAE 内置模型，超额规则查账户用量",
+      "checks": [
+        {
+          "page": "trae",
+          "label": "免费新用户赠送额度",
+          "pattern": "免费用户可以通过以下途径获得积分.{0,160}?新用户注册福利 一次性赠送 (?P<value>[\\d,]+) 积分",
+          "capture": "amount"
+        },
+        {
+          "page": "trae",
+          "label": "新人额度有效期",
+          "pattern": "新用户注册福利 一次性赠送 [\\d,]+ 积分。 (?P<value>\\d+) 个自然日",
+          "capture": "days"
+        },
+        {
+          "page": "trae",
+          "label": "产品内模型",
+          "pattern": "TRAE 内置模型"
+        }
+      ]
+    },
+    {
+      "id": "trae-invite-2026-11",
+      "title": "TRAE 邀请新用户活动",
+      "provider": "TRAE",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "limited",
+      "amount": "每次有效邀请双方各 {amount} 积分",
+      "eligibility": "好友须通过官方邀请注册并登录，已注册用户不计入",
+      "timing": "活动截止 2026-11-30 00:00 北京时间，奖励发放后 {days} 天有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "奖励用于 TRAE 内的 AI 功能",
+      "starts_at": "2026-11-13T00:00:00+08:00",
+      "ends_at": "2026-11-30T00:00:00+08:00",
+      "checks": [
+        {
+          "page": "trae-event",
+          "label": "活动时间和时区",
+          "pattern": "2026 年 11 月 13 日 00:00:00 - 2026 年 11 月 30 日 00:00:00.{0,22}北京时间"
+        },
+        {
+          "page": "trae-event",
+          "label": "奖励积分",
+          "pattern": "每完成一次有效邀请，邀请人与被邀请人双方各获得 (?P<value>[\\d,]+) 积分",
+          "capture": "amount"
+        },
+        {
+          "page": "trae-event",
+          "label": "积分有效期",
+          "pattern": "积分有效期：自积分发放之日起 (?P<value>\\d+) 天内有效",
+          "capture": "days"
+        },
+        {
+          "page": "trae-event",
+          "label": "注册和登录条件",
+          "pattern": "通过邀请人专属链接首次注册的新用户，并成功登录 TRAE"
+        },
+        {
+          "page": "trae-event",
+          "label": "产品用途",
+          "pattern": "积分可用于在 TRAE 中使用 AI 能力"
+        }
+      ]
+    },
+    {
+      "id": "qoder-cn-daily",
+      "title": "Qoder CN 每日 Credits",
+      "provider": "Qoder",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "{amount} 通用 Credits/轮",
+      "eligibility": "限试用期用户、个人付费订阅及会员卡用户，普通免费体验版不可领取",
+      "timing": "北京时间每日 {start} 到次日 {end} 主动领取，每笔 {days} 天有效",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "只能在 Qoder CN 系列产品使用，具体功能和用量以账号为准",
+      "checks": [
+        {
+          "page": "qoder",
+          "label": "当前领取资格",
+          "pattern": "本活动面向试用期用户、个人付费订阅用户及会员卡用户开放"
+        },
+        {
+          "page": "qoder",
+          "label": "免费体验版已停发",
+          "pattern": "体验版（免费）用户不再开放领取"
+        },
+        {
+          "page": "qoder",
+          "label": "领取额度",
+          "pattern": "每次 (?P<value>[\\d,]+) 通用 Credits，需主动领取",
+          "capture": "amount"
+        },
+        {
+          "page": "qoder",
+          "label": "每日领取开始",
+          "pattern": "每日 (?P<value>\\d{2}:\\d{2}) 开放新一轮领取",
+          "capture": "start"
+        },
+        {
+          "page": "qoder",
+          "label": "每日领取结束",
+          "pattern": "领取窗口持续至次日 (?P<value>\\d{2}:\\d{2}) 前",
+          "capture": "end"
+        },
+        {
+          "page": "qoder",
+          "label": "到账后的有效期",
+          "pattern": "每笔奖励自领取之日起 (?P<value>\\d+) 天内有效",
+          "capture": "days"
+        },
+        {
+          "page": "qoder",
+          "label": "北京时间",
+          "pattern": "本文时间均为北京时间"
+        },
+        {
+          "page": "qoder",
+          "label": "产品内额度",
+          "pattern": "可在 Qoder CN 全系产品中使用"
+        }
+      ]
+    },
+    {
+      "id": "bailian-qwen38flash-new",
+      "title": "阿里云百炼新人额度 · qwen3.8-flash",
+      "provider": "阿里云百炼",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "{amount} 万 Token",
+      "eligibility": "实名并首次开通，华北 2（北京）。用通用 API Key 做实时推理，实际余量看免费额度页",
+      "timing": "通常 {days} 天，从开通、模型发布或获批里较晚日期起算",
+      "no_upfront_payment": true,
+      "billing": "opt-in-stop",
+      "billing_note": "默认超额计费，有余量时可为目标模型开启用完即停",
+      "checks": [
+        {
+          "page": "bailian",
+          "label": "首次开通且无需购买",
+          "pattern": "首次开通阿里云百炼后由系统自动发放，无需手动领取或购买任何产品"
+        },
+        {
+          "page": "bailian",
+          "label": "地域和实名",
+          "pattern": "仅华北2（北京）地域模型享有免费额度，其他地域无免费额度。 开通阿里云百炼需先完成实名认证"
+        },
+        {
+          "page": "bailian",
+          "label": "额度有效期和起算规则",
+          "pattern": "免费额度的有效期为 (?P<value>\\d+) 天，从开通阿里云百炼、模型发布或模型申请通过之日起计算（以较晚者为准）",
+          "capture": "days"
+        },
+        {
+          "page": "bailian",
+          "label": "实时推理和通用 API Key",
+          "pattern": "实时调用时，系统将自动优先使用免费额度.{0,230}改用通用 API Key"
+        },
+        {
+          "page": "bailian",
+          "label": "超额默认计费",
+          "pattern": "免费额度用完后自动转为按量付费"
+        },
+        {
+          "page": "bailian",
+          "label": "用完即停默认关闭",
+          "pattern": "AllocationQuota\\.FreeTierOnly.{0,80}该功能默认关闭"
+        },
+        {
+          "page": "bailian-price",
+          "label": "目标模型的新人额度",
+          "pattern": "qwen3\\.8-flash 上下文缓存享有折扣 非思考和思考模式 0<Token≤1M [\\d.]+元 [\\d.]+元 (?P<value>[\\d,]+)万\\s*Token",
+          "capture": "amount"
+        }
+      ]
+    },
+    {
+      "id": "tencent-tokenhub-cn-new",
+      "title": "腾讯云 TokenHub 中国站语言与多模态体验",
+      "provider": "腾讯云 TokenHub",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text",
+        "video"
+      ],
+      "cadence": "one-off",
+      "amount": "语言及多模态理解档标注 {amount} 万 Tokens，另有部分视觉模型体验包",
+      "eligibility": "主账号开通 TokenHub，在控制台领取。不同模型按官方共享及使用限制核对，勿叠加计数",
+      "timing": "本期至 2026-12-31，语言额度从领取起 {years} 年",
+      "no_upfront_payment": null,
+      "billing": "opt-in-stop",
+      "billing_note": "未开后付费时用完自动停止，开启后按量计费",
+      "ends_at": "2027-01-01T00:00:00+08:00",
+      "checks": [
+        {
+          "page": "tkhub",
+          "label": "活动期限",
+          "pattern": "本期活动时间截至 2026 年 12 月 31 日"
+        },
+        {
+          "page": "tkhub",
+          "label": "主账号和领取入口",
+          "pattern": "为每个主账号提供一次免费体验额度.{0,480}从模型广场领取"
+        },
+        {
+          "page": "tkhub",
+          "label": "语言额度",
+          "pattern": "语言模型均提供 (?P<value>[\\d,]+) 万 Tokens 的免费体验额度",
+          "capture": "amount"
+        },
+        {
+          "page": "tkhub",
+          "label": "语言有效期",
+          "pattern": "语言模型均提供 [\\d,]+ 万 Tokens 的免费体验额度，有效期 (?P<value>\\d+) 年",
+          "capture": "years"
+        },
+        {
+          "page": "tkhub",
+          "label": "指定视频模型",
+          "pattern": "生视频 YT-Video-HumanActor \\d+ 积分"
+        },
+        {
+          "page": "tkhub",
+          "label": "余额共享",
+          "pattern": "同一账号下的所有模型共享额度"
+        },
+        {
+          "page": "tkhub",
+          "label": "后付费行为",
+          "pattern": "如果未开启后付费，服务将自动停止"
+        },
+        {
+          "page": "tkhub",
+          "label": "多模态理解正式列入体验",
+          "pattern": "多模态理解模型均提供 100 万 Tokens 的免费体验额度，有效期 1 年"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs-free-monthly",
+      "title": "ElevenLabs Free",
+      "provider": "ElevenLabs",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "monthly",
+      "amount": "{amount} Credits/月",
+      "eligibility": "免费计划的部分 API，生成内容用于非商业并按要求署名",
+      "timing": "按月刷新，产品共同使用额度",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "目标接口或模型的抵扣方式及额度耗尽行为以官方用量页为准",
+      "checks": [
+        {
+          "page": "eleven",
+          "label": "月度免费档额度",
+          "pattern": "Monthly price and included credits per plan: Free \\$0 \\((?P<value>[\\d,]+) credits\\)",
+          "capture": "amount"
+        },
+        {
+          "page": "eleven",
+          "label": "跨产品共享额度",
+          "pattern": "Credits are shared across every product"
+        },
+        {
+          "page": "eleven-policy",
+          "label": "免费档非商业需署名",
+          "pattern": "free plan, you can use the content non-commercially with attribution"
+        },
+        {
+          "page": "eleven-api",
+          "label": "免费档可用 API",
+          "pattern": "Most of our API endpoints are available for all plans, including the free plan"
+        }
+      ]
+    },
+    {
+      "id": "livekit-inference-build",
+      "title": "LiveKit Inference Build",
+      "provider": "LiveKit",
+      "market": "international",
+      "access": "platform",
+      "topics": [
+        "audio",
+        "text"
+      ],
+      "cadence": "monthly",
+      "amount": "{amount} 美元推理额度/月",
+      "eligibility": "Build 免费计划，支持的推理模型和免费项目间共享",
+      "timing": "月度配额，未用部分不结转",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超额后新请求失败",
+      "checks": [
+        {
+          "page": "livekit",
+          "label": "Build 月度推理额度",
+          "pattern": "LiveKit Inference.{0,190}Aggregated usage for all LiveKit Inference.{0,240}?\\$(?P<value>\\d+\\.\\d{2})",
+          "capture": "amount"
+        },
+        {
+          "page": "livekit",
+          "label": "免费计划硬上限",
+          "pattern": "the included allowance is a hard cap and new requests fail after"
+        },
+        {
+          "page": "livekit",
+          "label": "免费项目共享",
+          "pattern": "Free projects also share allowances and limits"
+        },
+        {
+          "page": "livekit",
+          "label": "月度不结转",
+          "pattern": "Unused credits do not roll over to the next month"
+        },
+        {
+          "page": "livekit",
+          "label": "模型用途",
+          "pattern": "provides STT, TTS, LLM, and realtime models"
+        }
+      ]
+    },
+    {
+      "id": "zed-student-plan",
+      "title": "Zed 学生计划",
+      "provider": "Zed",
+      "market": "international",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "monthly",
+      "amount": "{amount} 美元 AI 用量/月",
+      "eligibility": "认可高校在读且年满 18 岁。有效学校邮箱与注册超过 30 天的 GitHub 账号",
+      "timing": "学生计划有效一年",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "只用于 Zed，模型和续用规则看学生计划",
+      "checks": [
+        {
+          "page": "zed",
+          "label": "学生月额度",
+          "pattern": "\\$(?P<value>[\\d.]+)/month in (?:AI )?token credits",
+          "capture": "amount"
+        },
+        {
+          "page": "zed",
+          "label": "学生和年龄条件",
+          "pattern": "Currently enrolled at an accredited university At least 18 years old"
+        },
+        {
+          "page": "zed",
+          "label": "一年计划",
+          "pattern": "All Zed Pro features for 12 months"
+        },
+        {
+          "page": "zed",
+          "label": "验证条件",
+          "pattern": "GitHub account older than 30 days, and then share your valid and current university email address"
+        }
+      ]
+    },
+    {
+      "id": "runway-free",
+      "title": "Runway Free 一次性体验",
+      "provider": "Runway",
+      "market": "international",
+      "access": "product",
+      "topics": [
+        "image",
+        "video"
+      ],
+      "cadence": "one-off",
+      "amount": "{amount} Credits",
+      "eligibility": "Free 计划，适用创意模型以登录后显示为准",
+      "timing": "一次性发放，不设到期日",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "用于 Runway 创意工具，具体额度用完的产品提示以账号为准",
+      "checks": [
+        {
+          "page": "runway",
+          "label": "免费方案",
+          "pattern": "For people looking to explore Runway's AI Tools \\$0 /month"
+        },
+        {
+          "page": "runway",
+          "label": "一次性额度",
+          "pattern": "Includes (?P<value>[\\d,]+) credits \\(one time\\)",
+          "capture": "amount"
+        },
+        {
+          "page": "runway",
+          "label": "额度不设到期日",
+          "pattern": "Free plan includes a one-time deposit of \\d+ credits that doesn't expire"
+        },
+        {
+          "page": "runway",
+          "label": "适用部分创意模型",
+          "pattern": "A selection of generative creative models to test concepts"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-kolors",
+      "title": "硅基流动 Kolors 免费生图",
+      "provider": "硅基流动",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "image"
+      ],
+      "cadence": "open",
+      "amount": "标价为免费",
+      "eligibility": "硅基流动中国大陆站，实名认证后可使用全部免费模型",
+      "timing": "模型限速及当前开放状态以模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超过该模型限流时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "指定 API 模型价格",
+          "pattern": "Kwai-Kolors/Kolors 生成图片每图片免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-paddleocr",
+      "title": "硅基流动 PaddleOCR 免费文档解析",
+      "provider": "硅基流动",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "documents"
+      ],
+      "cadence": "open",
+      "amount": "标价为免费",
+      "eligibility": "硅基流动中国大陆站，实名认证后可使用全部免费模型",
+      "timing": "模型限速及当前开放状态以模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超过该模型限流时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "指定 API 模型价格",
+          "pattern": "PaddlePaddle/PaddleOCR-VL-1\\.5 免费 免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        }
+      ]
+    },
+    {
+      "id": "somark-oxr-open",
+      "title": "SoMark OXR 文档解析",
+      "provider": "SoMark",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "documents"
+      ],
+      "cadence": "open",
+      "amount": "按容量开放的免费 API",
+      "eligibility": "厂商提供国内和国际免费 API，连接参数见官方项目文档",
+      "timing": "按服务器承载量开放，可能排队，未公布固定请求上限",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "免费端点限开发验证，官网不保证速率和稳定性",
+      "checks": [
+        {
+          "page": "somark",
+          "label": "厂商提供免费 API",
+          "pattern": "我们将持续提供免费API服务，直至我们的服务器顶不住压力"
+        },
+        {
+          "page": "somark",
+          "label": "官方域名和区域",
+          "pattern": "https://free-oxr\\.somark\\.ai/api/v1 \\| https://free-oxr\\.somark\\.cn/api/v1"
+        },
+        {
+          "page": "somark",
+          "label": "官方文档免真实密钥",
+          "pattern": "(?:--api-key dummy|api_key=dummy)"
+        }
+      ]
+    },
+    {
+      "id": "officeace-daily",
+      "provider": "华为云 OfficeAce",
+      "title": "华为果办体验版登录积分",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "image"
+      ],
+      "cadence": "daily",
+      "amount": "50 积分/日",
+      "eligibility": "个人体验版，每日登录，限果办内 AI 办公及创作",
+      "timing": "当日有效，限时权益；官网未写明确结束时间",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "额度和创作权限以该套餐为准",
+      "checks": [
+        {
+          "page": "official-officeace-daily",
+          "label": "零元个人体验版",
+          "pattern": "个人体验版.{0,75}¥0\\.00 免费体验"
+        },
+        {
+          "page": "official-officeace-daily",
+          "label": "每日额度与有效期",
+          "pattern": "个人体验版.{0,135}每日登录赠送50积分，当日有效（限时）"
+        },
+        {
+          "page": "official-officeace-daily",
+          "label": "产品内创作",
+          "pattern": "每日可AI创作2张图片.{0,60}每日可生成2份文档"
+        }
+      ]
+    },
+    {
+      "id": "huawei-codearts-contest-checkin",
+      "provider": "华为云码道",
+      "title": "华为云码道创新赛签到",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "1,000 积分/日",
+      "eligibility": "先完成创新赛报名，在码道 IDE 或网页的活动福利手动领",
+      "timing": "领取条款截止 2026-12-05 23:59:59（UTC+8），积分于 12-26 23:59:59 失效。参赛报名资格看赛事通知",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "码道产品内积分",
+      "checks": [
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "赛事实领额度",
+          "pattern": "每日签到赠1000积分"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "参赛资格和领取路径",
+          "pattern": "参与对象：所有报名参赛的用户。.{0,175}活动福利"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "活动给出的截止时间",
+          "pattern": "结束时间：2026年12月5日 23:59:59（UTC\\+8）"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "到账积分到期",
+          "pattern": "积分有效期：2026年12月26日 23:59:59（UTC\\+8）"
+        }
+      ],
+      "ends_at": "2026-12-06T00:00:00+08:00"
+    },
+    {
+      "id": "huawei-codearts-contest-entry",
+      "provider": "华为云码道",
+      "title": "华为云码道创新赛报名奖励",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "limited",
+      "amount": "2,000 积分",
+      "eligibility": "先完成创新赛报名，在码道 IDE 或网页的活动福利手动领",
+      "timing": "领取条款截止 2026-12-05 23:59:59（UTC+8），积分于 12-26 23:59:59 失效。参赛报名资格看赛事通知",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "码道产品内积分",
+      "checks": [
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "赛事实领额度",
+          "pattern": "用户报名参赛即可获赠2000积分"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "参赛资格和领取路径",
+          "pattern": "参与对象：所有报名参赛的用户。.{0,175}活动福利"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "活动给出的截止时间",
+          "pattern": "结束时间：2026年12月5日 23:59:59（UTC\\+8）"
+        },
+        {
+          "page": "official-huawei-codearts-contest-checkin",
+          "label": "到账积分到期",
+          "pattern": "积分有效期：2026年12月26日 23:59:59（UTC\\+8）"
+        }
+      ],
+      "ends_at": "2026-12-06T00:00:00+08:00"
+    },
+    {
+      "id": "huawei-codearts-free-checkin",
+      "provider": "华为云码道",
+      "title": "华为云码道个人体验版签到",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "100 积分/日",
+      "eligibility": "采用积分计费的个人体验版，签到后领取",
+      "timing": "当天领取当天有效。活动规则截至 2026-12-31（UTC+8）",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "使用码道内置能力",
+      "checks": [
+        {
+          "page": "official-huawei-codearts-free-checkin",
+          "label": "免费版对应的分档额度",
+          "pattern": "个人体验版 100积分 个人标准版"
+        },
+        {
+          "page": "official-huawei-codearts-free-checkin",
+          "label": "积分模式资格",
+          "pattern": "升级到积分计费模式个人版套餐"
+        },
+        {
+          "page": "official-huawei-codearts-free-checkin",
+          "label": "当日清零",
+          "pattern": "当日领取当日有效，逾期自动失效"
+        },
+        {
+          "page": "official-huawei-codearts-free-checkin",
+          "label": "活动截止",
+          "pattern": "结束时间：2026年12月31日 23:59:59（UTC\\+8）"
+        }
+      ],
+      "ends_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "id": "meoo-login",
+      "provider": "秒悟",
+      "title": "秒悟每日登录积分",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code",
+        "text"
+      ],
+      "cadence": "daily",
+      "amount": "2,000 积分/日",
+      "eligibility": "秒悟免费版账户，在产品内用于创建应用",
+      "timing": "登录发放，独立到期规则在产品内确认",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "调用指定模型时按秒悟积分扣除，余额在秒悟账号内查看",
+      "checks": [
+        {
+          "page": "official-meoo-login",
+          "label": "产品分档",
+          "pattern": "¥0 ¥29/月"
+        },
+        {
+          "page": "official-meoo-login",
+          "label": "指定免费积分",
+          "pattern": "每日登录赠送积分 2,000"
+        },
+        {
+          "page": "official-meoo-login",
+          "label": "模型消耗口径",
+          "pattern": "积分.{0,18}消耗|消耗.{0,18}积分"
+        }
+      ]
+    },
+    {
+      "id": "meoo-new",
+      "provider": "秒悟",
+      "title": "秒悟新人首月额度",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code",
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "5,000 积分",
+      "eligibility": "秒悟免费版账户，在产品内用于创建应用",
+      "timing": "免费版首次注册的第一个月",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "调用指定模型时按秒悟积分扣除，余额在秒悟账号内查看",
+      "checks": [
+        {
+          "page": "official-meoo-login",
+          "label": "产品分档",
+          "pattern": "¥0 ¥29/月"
+        },
+        {
+          "page": "official-meoo-login",
+          "label": "指定免费积分",
+          "pattern": "每月积分额度 0（新人首月5,000）"
+        },
+        {
+          "page": "official-meoo-login",
+          "label": "模型消耗口径",
+          "pattern": "积分.{0,18}消耗|消耗.{0,18}积分"
+        }
+      ]
+    },
+    {
+      "id": "sensetime-raccoon-daily",
+      "provider": "商汤小浣熊",
+      "title": "商汤小浣熊每日免费积分",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "documents"
+      ],
+      "cadence": "daily",
+      "amount": "300 积分/日",
+      "eligibility": "个人免费版自动获得，同账号各端共享",
+      "timing": "每日 00:00 发放。未登录当日清零，当天登录后该笔含当天有效 7 天",
+      "no_upfront_payment": true,
+      "billing": "stops",
+      "billing_note": "积分不足无法启动任务，免费版可等下一轮发放",
+      "checks": [
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "免费版每日积分",
+          "pattern": "个人免费版 300 积分/日"
+        },
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "发放时间",
+          "pattern": "每天 00:00 自动发放到账"
+        },
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "登录延长有效期",
+          "pattern": "当天这笔积分的有效期将延长至 7 天"
+        },
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "自动过期",
+          "pattern": "默认在发放当日 24:00 清零"
+        },
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "免费档余额不足处理",
+          "pattern": "本次任务不会执行.{0,80}个人免费版用户.{0,10}等待次日 00:00"
+        },
+        {
+          "page": "official-sensetime-raccoon-daily",
+          "label": "产品适用任务",
+          "pattern": "AI 对话、任务规划、数据分析、PPT 生成"
+        }
+      ]
+    },
+    {
+      "id": "ace-music-daily",
+      "provider": "ACE Music",
+      "title": "ACE Music 免费账号每日积分",
+      "market": "international",
+      "access": "product",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "daily",
+      "amount": "20 积分/日",
+      "eligibility": "从 ACE Music 注册的免费账号；原 ACE Studio 注册账号是另一档月额度",
+      "timing": "每日刷新，未用积分不结转",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "模型和输入形式影响消耗，下载及商用权限按模型和方案核对",
+      "checks": [
+        {
+          "page": "official-ace-music-daily",
+          "label": "ACE Music 注册用户日额度",
+          "pattern": "免费账号——最初通过 ACE Music 注册 每天刷新为 20 积分。 不能结转或累积"
+        },
+        {
+          "page": "official-ace-music-daily",
+          "label": "ACE Studio 不共享同一规则",
+          "pattern": "免费账号——最初通过 ACE Studio 注册 每月刷新为 100 积分"
+        },
+        {
+          "page": "official-ace-music-daily",
+          "label": "音乐模型计费差异",
+          "pattern": "ACE Music v1 和 ACE Music v1\\.1 Preview 每次生成请求消耗 4 积分"
+        }
+      ]
+    },
+    {
+      "id": "astudio-daily",
+      "provider": "科大讯飞 AStudio",
+      "title": "AStudio 体验版每日登录",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "audio"
+      ],
+      "cadence": "daily",
+      "amount": "100 积分/日",
+      "eligibility": "AStudio 客户端体验版，按账号条件登录获得",
+      "timing": "单笔领取后 31 天内有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "额度用于 AStudio 内置能力",
+      "checks": [
+        {
+          "page": "official-astudio-daily",
+          "label": "免费体验与产品权益",
+          "pattern": "体验版 标准版 高级版 按月购买 限时免费"
+        },
+        {
+          "page": "official-astudio-daily",
+          "label": "赠送规则和有效期",
+          "pattern": "体验版、标准版和高级版分别可领取 100、200 和 400 积分；每次领取后 31 天内有效"
+        }
+      ]
+    },
+    {
+      "id": "astudio-new",
+      "provider": "科大讯飞 AStudio",
+      "title": "AStudio 新用户积分",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "audio"
+      ],
+      "cadence": "one-off",
+      "amount": "1,000 积分",
+      "eligibility": "AStudio 客户端体验版，按账号条件登录获得",
+      "timing": "新手额度 3 个月有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "额度用于 AStudio 内置能力",
+      "checks": [
+        {
+          "page": "official-astudio-daily",
+          "label": "免费体验与产品权益",
+          "pattern": "体验版 标准版 高级版 按月购买 限时免费"
+        },
+        {
+          "page": "official-astudio-daily",
+          "label": "赠送规则和有效期",
+          "pattern": "新用户.{0,100}1,000 积分，有效期为 3 个月"
+        }
+      ]
+    },
+    {
+      "id": "openrouter-ernie55-free",
+      "provider": "OpenRouter",
+      "title": "OpenRouter 文心 ERNIE 5.5 Flash 免费预览",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "open",
+      "amount": "基础档共享 50 请求/日，20 请求/分",
+      "eligibility": "调用模型 baidu/ernie-5.5-flash-preview:free，注册 OpenRouter 账号取得个人 Key",
+      "timing": "免费预览开放中，使用前查模型页状态",
+      "no_upfront_payment": true,
+      "billing": "stops",
+      "billing_note": ":free 请求计入基础限额，失败请求也计入日限额",
+      "checks": [
+        {
+          "page": "official-openrouter-ernie55-free",
+          "label": "免费预览模型",
+          "pattern": "Baidu: ERNIE-5\\.5-Flash-Preview \\(free\\)"
+        },
+        {
+          "page": "official-openrouter-ernie55-free",
+          "label": "模型接口",
+          "pattern": "serves .baidu/ernie-5\\.5-flash-preview"
+        },
+        {
+          "page": "router",
+          "label": "免费变体的共享上限",
+          "pattern": "end in :free, are capped at 20 requests per minute and 50 requests per day"
+        },
+        {
+          "page": "router",
+          "label": "免费变体无需预充",
+          "pattern": "end in :free, do not require a credit purchase"
+        },
+        {
+          "page": "router",
+          "label": "失败请求也计入",
+          "pattern": "Failed attempts count toward the daily cap"
+        }
+      ]
+    },
+    {
+      "id": "wps-lingxi-checkin",
+      "provider": "WPS 灵犀",
+      "title": "WPS 灵犀签到智点",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text"
+      ],
+      "cadence": "daily",
+      "amount": "100 智点/日，连续签到第 7 天起 200 智点/日",
+      "eligibility": "在灵犀中日常签到，赠送智点只能用于灵犀",
+      "timing": "每笔有效期查看智点详情",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "由任务和模型消耗智点",
+      "checks": [
+        {
+          "page": "official-wps-lingxi-checkin",
+          "label": "签到档与连续签到规则",
+          "pattern": "日常签到：每天 100/200 智点（连续签到 Day7 起 200/天）"
+        },
+        {
+          "page": "official-wps-lingxi-checkin",
+          "label": "使用范围",
+          "pattern": "仅限用于灵犀服务消耗"
+        }
+      ]
+    },
+    {
+      "id": "drex-monthly",
+      "provider": "Nace AI",
+      "title": "Drex 每月额度",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "documents"
+      ],
+      "cadence": "monthly",
+      "amount": "5 美元服务额度",
+      "eligibility": "需合资格的 Google、注册满 30 天的 GitHub 账号或完成验卡",
+      "timing": "注册满一个月开始，按注册日刷新，不结转",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "余额和可用接口以 Drex 控制台为准",
+      "checks": [
+        {
+          "page": "official-drex-monthly",
+          "label": "额度发放条件",
+          "pattern": "The monthly allowance is \\$5\\. The first one arrives one month after sign-up"
+        },
+        {
+          "page": "official-drex-monthly",
+          "label": "账号验证要求",
+          "pattern": "a Google sign-in, a GitHub sign-in from an account at least 30 days old, or a card verified"
+        }
+      ]
+    },
+    {
+      "id": "drex-new",
+      "provider": "Nace AI",
+      "title": "Drex 新户额度",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "documents"
+      ],
+      "cadence": "one-off",
+      "amount": "5 美元服务额度",
+      "eligibility": "需合资格的 Google、注册满 30 天的 GitHub 账号或完成验卡",
+      "timing": "有效期按注册起算 3 个月",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "余额和可用接口以 Drex 控制台为准",
+      "checks": [
+        {
+          "page": "official-drex-monthly",
+          "label": "额度发放条件",
+          "pattern": "(?:sign-up|signup).{0,130}\\$5.{0,220}(?:three|3) months after sign-up|\\$5.{0,100}(?:sign-up|signup).{0,220}(?:three|3) months after sign-up"
+        },
+        {
+          "page": "official-drex-monthly",
+          "label": "账号验证要求",
+          "pattern": "a Google sign-in, a GitHub sign-in from an account at least 30 days old, or a card verified"
+        }
+      ],
+      "review_note": "官方规则可确认存在新户额及有效期，当前可读定价表未显示新户具体金额"
+    },
+    {
+      "id": "intern-inkmonthly",
+      "provider": "书生·端砚",
+      "title": "书生·端砚测试期月度墨点",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text"
+      ],
+      "cadence": "monthly",
+      "amount": "测试期每月赠免费用量，官网未公布统一数量",
+      "eligibility": "科研模型墨点计划，测试期间用于对应模型及科研服务",
+      "timing": "每月发放，具体余额和到期看账户",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "各模型按界面计费规则",
+      "checks": [
+        {
+          "page": "official-intern-inkmonthly",
+          "label": "产品计划名称",
+          "pattern": "书生·端砚现已推出本地客户端及科研模型“墨点计划”"
+        },
+        {
+          "page": "official-intern-inkmonthly",
+          "label": "测试期每月免费",
+          "pattern": "测试期间，每位用户每月可获免费Token，用于调用多元模型与相关科研服务"
+        }
+      ]
+    },
+    {
+      "id": "tencent-adp-monthly",
+      "provider": "腾讯云 ADP",
+      "title": "腾讯云智能体开发平台体验套餐",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text"
+      ],
+      "cadence": "monthly",
+      "amount": "15,000 PU/月",
+      "eligibility": "实名认证的主账号，首次开通后按提示领取体验版",
+      "timing": "按月发放，账户级权益",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "限平台内订阅套餐及适用模型，超额按相应使用规则看",
+      "checks": [
+        {
+          "page": "official-tencent-adp-monthly",
+          "label": "实名与首次开通门槛",
+          "pattern": "已实名认证的主账号首次开通腾讯云智能体开发平台服务时"
+        },
+        {
+          "page": "official-tencent-adp-monthly",
+          "label": "体验版月度PU",
+          "pattern": "体验版套餐为账号级权益，领取后可在平台内长期使用，每月赠送 15,000 PU"
+        },
+        {
+          "page": "official-tencent-adp-monthly",
+          "label": "体验版价格0元",
+          "pattern": "体验版（0 元|体验版（0元"
+        }
+      ]
+    },
+    {
+      "id": "workbuddy-monthly",
+      "provider": "腾讯 WorkBuddy",
+      "title": "WorkBuddy 体验版月积分",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "monthly",
+      "amount": "500 积分/月",
+      "eligibility": "WorkBuddy 中国大陆个人体验版",
+      "timing": "每月基础额度",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "使用 WorkBuddy 的模型和功能，实际以当前套餐为准",
+      "checks": [
+        {
+          "page": "official-workbuddy-monthly",
+          "label": "体验版免费",
+          "pattern": "其中体验版可免费使用"
+        },
+        {
+          "page": "official-workbuddy-monthly",
+          "label": "免费版月积分列",
+          "pattern": "基础积分 / 月 500 2,000 4,000 20,000"
+        },
+        {
+          "page": "official-workbuddy-monthly",
+          "label": "体验版模型条件",
+          "pattern": "模型调度 Auto 模型调度"
+        }
+      ]
+    },
+    {
+      "id": "autoclaw-nov-week",
+      "provider": "智谱 AutoClaw",
+      "title": "AutoClaw 11 月登录活动",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "limited",
+      "amount": "10,000 积分（活动称 100M Tokens）",
+      "eligibility": "指定活动期间登录 AutoClaw，每个账号一次",
+      "timing": "发放及使用截止 2026-11-22 23:59（北京时间）",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "活动用量用于 AutoClaw 产品",
+      "checks": [
+        {
+          "page": "official-autoclaw-nov-week",
+          "label": "官方公告注明年份",
+          "pattern": "AutoClaw Team 2026年11月13日"
+        },
+        {
+          "page": "official-autoclaw-nov-week",
+          "label": "单账号额度",
+          "pattern": "登录 AutoClaw，即可领取 100M Tokens（相当于 10,000 积分），每个账号限领一次"
+        },
+        {
+          "page": "official-autoclaw-nov-week",
+          "label": "领取和使用截止",
+          "pattern": "11 月 22 日（周日）23:59（北京时间）.{0,155}奖励将在 11 月 22 日 23:59 失效"
+        }
+      ],
+      "ends_at": "2026-11-23T00:00:00+08:00"
+    },
+    {
+      "id": "nous-qwen4free",
+      "provider": "Nous Research",
+      "title": "Nous Portal Qwen4 Max 免费模型",
+      "market": "international",
+      "access": "platform",
+      "topics": [
+        "text"
+      ],
+      "cadence": "open",
+      "amount": "模型列表标为 FREE，具体次数未公布",
+      "eligibility": "在 Nous Portal 查对应免费模型；同名付费条目另有价格",
+      "timing": "适用窗口随模型目录变化，未注明结束时间",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "仅选择免费条目，具体消耗及限速在账号内确认",
+      "checks": [
+        {
+          "page": "official-nous-qwen4free",
+          "label": "明确免费版本",
+          "pattern": "Qwen: Qwen4 MaxFREE"
+        },
+        {
+          "page": "official-nous-qwen4free",
+          "label": "并列付费条目",
+          "pattern": "Qwen: Qwen4 Maxin \\$"
+        }
+      ]
+    },
+    {
+      "id": "reducto-standard-credit",
+      "provider": "Reducto",
+      "title": "Reducto Standard 文档解析试用额度",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "documents"
+      ],
+      "cadence": "one-off",
+      "amount": "150 美元免费用量",
+      "eligibility": "Standard 档，可用于公开定价页所列的文档 API",
+      "timing": "首次试用用量，账号领取资格和失效日期以控制台为准",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "Standard 为按用量计费，先确认免费余额和超额设置",
+      "checks": [
+        {
+          "page": "official-reducto-standard-credit",
+          "label": "Standard 档和金额",
+          "pattern": "Standard Pay-as-you-go for early-stage teams Free\\$150 in free usage"
+        },
+        {
+          "page": "official-reducto-standard-credit",
+          "label": "文档接口",
+          "pattern": "Parse API Extract API Edit API Split API"
+        }
+      ]
+    },
+    {
+      "id": "telnyx-pretrial",
+      "provider": "Telnyx",
+      "title": "Telnyx Pretrial 新户 AI 额度",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "audio",
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "25 美元 AI Credits",
+      "eligibility": "注册 Pretrial，厂商明确无需信用卡或付款设置",
+      "timing": "有效天数在账户页查看",
+      "no_upfront_payment": true,
+      "billing": "stops",
+      "billing_note": "额度用完即停止；升级并充值才继续，升级时原额度被5美元通用额度替代",
+      "checks": [
+        {
+          "page": "official-telnyx-pretrial",
+          "label": "预试用金额和免绑卡",
+          "pattern": "no credit card, no payment setup, and no commitment\\. Sign up, get \\$25 in AI credits"
+        },
+        {
+          "page": "official-telnyx-pretrial",
+          "label": "控制台有效天数",
+          "pattern": "users can now see how many AI credits they have left and #days left"
+        },
+        {
+          "page": "official-telnyx-pretrial",
+          "label": "使用停止",
+          "pattern": "Your AI usage will stop once the credit is exhausted"
+        },
+        {
+          "page": "official-telnyx-pretrial",
+          "label": "升级替换规则",
+          "pattern": "the \\$25 AI credit is replaced with a \\$5 full-credit"
+        }
+      ]
+    },
+    {
+      "id": "vmodel-new",
+      "provider": "VModel",
+      "title": "VModel API 注册赠额",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "text",
+        "image",
+        "video"
+      ],
+      "cadence": "one-off",
+      "amount": "10 美元免费额度",
+      "eligibility": "新用户注册获得，无需订阅或信用卡",
+      "timing": "官网未注明统一到期日",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "适用模型以官方标价为准，额度耗尽前查计费设置",
+      "checks": [
+        {
+          "page": "official-vmodel-new",
+          "label": "新客金额及使用范围",
+          "pattern": "\\$10 free credit for new users upon signup\\. No credit card required\\. Valid for all models"
+        },
+        {
+          "page": "official-vmodel-new",
+          "label": "无订阅门槛",
+          "pattern": "with no subscription or credit card required"
+        }
+      ]
+    },
+    {
+      "id": "zed-pro-trial",
+      "provider": "Zed",
+      "title": "Zed Pro 新户限期试用",
+      "market": "international",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "5 美元 GPT-6 Luna 用量",
+      "eligibility": "Zed 编辑器内的 Pro 试用，开通前检查续费和资格",
+      "timing": "从试用开始 14 天",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "额度用于特定托管模型，涉及续费时以套餐和账单说明为准",
+      "checks": [
+        {
+          "page": "official-zed-pro-trial",
+          "label": "试用模型与金额",
+          "pattern": "trial of Zed Pro.{0,34}includes \\$5 of GPT-6 Luna usage"
+        },
+        {
+          "page": "official-zed-pro-trial",
+          "label": "试用期限",
+          "pattern": "for 14 days from when you start the trial"
+        }
+      ]
+    },
+    {
+      "id": "qianfan-new-coupon",
+      "provider": "百度千帆",
+      "title": "百度千帆首次注册代金券",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "20 元模型服务代金券",
+      "eligibility": "新注册千帆并完成实名认证。抵扣范围看千帆账单",
+      "timing": "到账后 1 个月，发放窗口以厂商活动公告为准",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "扣完后的使用规则以费用中心及模型计费文档为准",
+      "checks": [
+        {
+          "page": "official-qianfan-new-coupon",
+          "label": "注册、实名和赠额",
+          "pattern": "当前新用户注册百度千帆.{0,100}实名认证后即送20元代金券"
+        },
+        {
+          "page": "official-qianfan-new-coupon",
+          "label": "使用门槛与有效期",
+          "pattern": "全平台无门槛使用，有效期一个月"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-id-coupon",
+      "provider": "硅基流动",
+      "title": "硅基流动实名认证通用券",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "16 元通用代金券",
+      "eligibility": "完成实名后在活动中心的认证礼页面手动领一张",
+      "timing": "公开活动至 2026-12-31。每张券实际期限见到账页面",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "可抵扣官方模型 API，实际计费以账单规则为准",
+      "checks": [
+        {
+          "page": "official-siliconflow-id-coupon",
+          "label": "认证本身可领",
+          "pattern": "完成实名认证后，进入活动中心，并在认证专享礼页面领取 1 张 16 元通用代金券"
+        },
+        {
+          "page": "official-siliconflow-id-coupon",
+          "label": "公告时间",
+          "pattern": "持续至 2026 年 12 月 31 日"
+        },
+        {
+          "page": "official-siliconflow-id-coupon",
+          "label": "模型范围",
+          "pattern": "代金券全平台通用：无论是 AP"
+        }
+      ],
+      "ends_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "id": "scnet-new-flash",
+      "provider": "超算互联网",
+      "title": "超算互联网新客 GLM 试用包",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "1,000 万 Tokens",
+      "eligibility": "面向新用户，指定 GLM-5.3-Flash。领取及余量看活动页",
+      "timing": "到期时间看到账资源包，官网未说明时单独确认",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "使用前查看平台余额默认抵扣规则",
+      "checks": [
+        {
+          "page": "official-scnet-new-flash",
+          "label": "纯免费新客额度",
+          "pattern": "新客 尝鲜 注册即享，实时到账 10,000,000 Tokens 量包 模型 GLM-5\\.3-Flash"
+        },
+        {
+          "page": "official-scnet-new-flash",
+          "label": "限定新用户",
+          "pattern": "仅新用户可参与 免费领取"
+        }
+      ]
+    },
+    {
+      "id": "autoclaw-upgrade",
+      "provider": "智谱 AutoClaw",
+      "title": "AutoClaw 老用户升级礼",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "5,000 积分",
+      "eligibility": "使用旧版 AutoClaw 的用户升级到 2.2.0，领取状态以客户端为准",
+      "timing": "到账后 7 天内有效，公告未给统一活动结束时间",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "积分用于 AutoClaw 产品内置能力",
+      "checks": [
+        {
+          "page": "official-autoclaw-upgrade",
+          "label": "适用升级版本与额度",
+          "pattern": "现在升级至最新的 2\\.2\\.0 版本，旧版数据可轻松迁移，还能领取 5000 积分"
+        },
+        {
+          "page": "official-autoclaw-upgrade",
+          "label": "到账后的有效期",
+          "pattern": "积分发放后 7 天内有效"
+        }
+      ]
+    },
+    {
+      "id": "qoder-trial-300",
+      "provider": "Qoder",
+      "title": "Qoder CN 新用户体验",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "300 Credits 和 2 周 Pro 试用",
+      "eligibility": "中国大陆版首次注册账号，资格以账户权益为准",
+      "timing": "Pro 试用为两周，独立积分到期日查账户",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "额度只用于 Qoder CN 产品内，后续升级费用另查",
+      "checks": [
+        {
+          "page": "official-qoder-trial-300",
+          "label": "体验版明确时长和金额",
+          "pattern": "有限的体验额度，含为期 2 周的试用及 300 Credits"
+        },
+        {
+          "page": "official-qoder-trial-300",
+          "label": "账户与版本范围",
+          "pattern": "体验版.{0,75}专业版"
+        }
+      ]
+    },
+    {
+      "id": "zcode-new-trial",
+      "provider": "智谱 ZCode",
+      "title": "ZCode 新用户五天体验",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "one-off",
+      "amount": "每天 GLM-5.3 300 万、GLM-5.3-Flash 500 万 Token",
+      "eligibility": "新用户在 ZCode 连接自己的 BigModel 账户，体验 ZCode Agent",
+      "timing": "首次使用起 5 天，按日发放，体验结束失效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "ZCode 体验额度，单独 API Key 接入的约束看官方文档",
+      "checks": [
+        {
+          "page": "official-zcode-new-trial",
+          "label": "免费新户和起算条件",
+          "pattern": "新用户连接 BigModel 账号后.{0,65}无需付费，在 首次使用起的 5 天内"
+        },
+        {
+          "page": "official-zcode-new-trial",
+          "label": "限时结束失效",
+          "pattern": "每日额度只在这 5 天内发放，体验期结束后即失效"
+        },
+        {
+          "page": "official-zcode-new-trial",
+          "label": "两模型独立配额",
+          "pattern": "GLM-5\\.3 300 万 token / 日 GLM-5\\.3-Flash 500 万 token / 日"
+        }
+      ]
+    },
+    {
+      "id": "bailian-student-credit",
+      "provider": "阿里云百炼",
+      "title": "阿里云高校学生抵扣金",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "300 元抵扣金",
+      "eligibility": "中国高校学生，包括港澳台地区，须完成学生实名认证",
+      "timing": "活动截至 2027-03-31，抵扣金自领取之日起一年内有效",
+      "no_upfront_payment": true,
+      "billing": "paid-overage",
+      "billing_note": "抵扣范围按活动规则和账单商品核对，余额用完或调用不在范围的模型时按资费计费",
+      "checks": [
+        {
+          "page": "official-bailian-student-credit",
+          "label": "高校学生实名认证与金额",
+          "pattern": "面向中国高校学生.{0,80}完成实名认证后即可领取300元无门槛抵扣金"
+        },
+        {
+          "page": "official-bailian-student-credit",
+          "label": "有效期和推理抵扣",
+          "pattern": "可抵扣大模型的推理费用.{0,75}自领取之日起一年内有效"
+        },
+        {
+          "page": "official-bailian-student-credit",
+          "label": "活动截止日期",
+          "pattern": "活动时间 2025年11月11日--2027年03月31日"
+        }
+      ],
+      "ends_at": "2027-04-01T00:00:00+08:00"
+    },
+    {
+      "id": "devin-flash-medium",
+      "provider": "Devin",
+      "title": "Devin Desktop 免费档 SWE-2 Flash Medium",
+      "market": "international",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "limited",
+      "amount": "Medium 模型限时免费，账户实际用量查看客户端",
+      "eligibility": "通过 Devin Desktop 或 CLI 使用免费档可用的 Medium 模型",
+      "timing": "至 2026-12-04 18:00 UTC，之后依据模型价目表",
+      "no_upfront_payment": null,
+      "billing": "paid-overage",
+      "billing_note": "到期转付费，使用前看套餐和模型权限",
+      "checks": [
+        {
+          "page": "official-devin-flash-medium",
+          "label": "免费期",
+          "pattern": "SWE-2 Flash is free until December 4, 2026 at 18:00 UTC"
+        },
+        {
+          "page": "official-devin-flash-medium",
+          "label": "有 Medium 档",
+          "pattern": "SWE-2 Flash each come in Medium, High, and Max"
+        },
+        {
+          "page": "official-devin-flash-medium",
+          "label": "免费档限定",
+          "pattern": "Free plan.{0,130}Medium|Medium.{0,70}Free plan"
+        },
+        {
+          "page": "official-devin-flash-medium",
+          "label": "免费结束后价格",
+          "pattern": "Afterward, all three variants cost"
+        }
+      ],
+      "ends_at": "2026-12-04T18:00:00+00:00"
+    },
+    {
+      "id": "opencode-free-hy-longcat",
+      "provider": "OpenCode",
+      "title": "OpenCode 免费聊天模型",
+      "market": "international",
+      "access": "platform",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "open",
+      "amount": "10 个型号在价目表标免费，包含 Hy4 flash、LongCat 2.5、DeepSeek V4.1 Flash 和 MiMo-V2.6-Flash 的免费版",
+      "eligibility": "在 OpenCode 内选官方价目表中标免费的模型；地区、数据使用和测试限制按模型另行核对",
+      "timing": "开放状态、下线日期和限速按模型页",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "免费聊天模型限 OpenCode 内使用，第三方工具的 Console API 密钥也不能调用这一组",
+      "checks": [
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Big Pickle 当前标零价",
+          "pattern": "\\| Big\\ Pickle \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Iceman Free 当前标零价",
+          "pattern": "\\| Iceman\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Inkling 2 Small Free 当前标零价",
+          "pattern": "\\| Inkling\\ 2\\ Small\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "DeepSeek V4.1 Flash Free 当前标零价",
+          "pattern": "\\| DeepSeek\\ V4\\.1\\ Flash\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Flint 40B Free 当前标零价",
+          "pattern": "\\| Flint\\ 40B\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "LongCat 2.5 Free 当前标零价",
+          "pattern": "\\| LongCat\\ 2\\.5\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Hy4 flash Free 当前标零价",
+          "pattern": "\\| Hy4\\ flash\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "MiMo-V2.6-Flash Free 当前标零价",
+          "pattern": "\\| MiMo\\-V2\\.6\\-Flash\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Nemotron 3.5 Lightning Free 当前标零价",
+          "pattern": "\\| Nemotron\\ 3\\.5\\ Lightning\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-free-hy-longcat",
+          "label": "Nemotron 3.5 Super VL Free 当前标零价",
+          "pattern": "\\| Nemotron\\ 3\\.5\\ Super\\ VL\\ Free \\| Free \\| Free \\|"
+        },
+        {
+          "page": "official-opencode-harnesses",
+          "label": "免费聊天模型的接入限制",
+          "pattern": "Free-tier chat models are only available from within OpenCode"
+        }
+      ]
+    },
+    {
+      "id": "qiniu-nemotron-free",
+      "provider": "七牛云",
+      "title": "七牛云 Nemotron 3 Ultra 免费用量",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "open",
+      "amount": "官方模型列表标为免费",
+      "eligibility": "使用七牛云 AI 模型服务下对应模型，账号条件看控制台",
+      "timing": "官网模型价目以当前列表为准",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "执行通用模型请求前确认模型 ID 和额度限定",
+      "checks": [
+        {
+          "page": "official-qiniu-nemotron-free",
+          "label": "指定模型为免费",
+          "pattern": "Nemotron 3 Ultra 550b a55b Free"
+        }
+      ]
+    },
+    {
+      "id": "ant-ling-monthly",
+      "provider": "蚂蚁百灵",
+      "title": "蚂蚁百灵月度 Token 抵扣券",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "monthly",
+      "amount": "10 元 Token 抵扣券/月",
+      "eligibility": "使用百灵新计费平台的计费账号",
+      "timing": "每月 1 日发放，券到期日查看计费后台",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "抵扣新计费平台的 API 消耗，旧入口规则单独核对",
+      "checks": [
+        {
+          "page": "official-ant-ling-monthly",
+          "label": "新平台月度赠额",
+          "pattern": "每月 1 日向使用百灵新计费平台的计费账户发放 1 张 价值 10 元的 Token 抵扣券"
+        },
+        {
+          "page": "official-ant-ling-monthly",
+          "label": "归属新平台 API",
+          "pattern": "升级后，新的 API 消费将不再依赖小程序云平台"
+        }
+      ]
+    },
+    {
+      "id": "edgeone-makers-models",
+      "provider": "腾讯 EdgeOne",
+      "title": "EdgeOne Makers 内置模型免费额度",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text",
+        "code"
+      ],
+      "cadence": "monthly",
+      "amount": "50 万 Token/月",
+      "eligibility": "EdgeOne Makers 免费计划，通过 Models 网关调用内置模型",
+      "timing": "月度额度，具体用量见平台控制台",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "限内置模型，平台规则与计费可能调整",
+      "checks": [
+        {
+          "page": "official-edgeone-makers-models",
+          "label": "免费版资格",
+          "pattern": "EdgeOne Makers 目前提供免费版"
+        },
+        {
+          "page": "official-edgeone-makers-models",
+          "label": "网关与月额度",
+          "pattern": "以下限制适用于通过 Models 网关发起的模型调用。 项 免费版 内置模型免费额度 50 万 token/月"
+        },
+        {
+          "page": "official-edgeone-makers-models",
+          "label": "商业化变更说明",
+          "pattern": "配额在商业化后可能调整"
+        }
+      ]
+    },
+    {
+      "id": "scnet-double11-new",
+      "provider": "超算互联网",
+      "title": "超算互联网双11客户端新人包",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text"
+      ],
+      "cadence": "limited",
+      "amount": "1 亿 Tokens",
+      "eligibility": "新客注册并在客户端的新人专享入口领取对应模型包",
+      "timing": "2026 双11活动标注截至 12-31，账号实际额度及期限看资源包",
+      "no_upfront_payment": true,
+      "billing": "paid-overage",
+      "billing_note": "赠送额度用完后可能扣费，查看活动规则和余额",
+      "checks": [
+        {
+          "page": "official-scnet-double11-new",
+          "label": "活动页档期",
+          "pattern": "活动时间即日起-12月31日 超算互联网 11\\.11"
+        },
+        {
+          "page": "official-scnet-double11-new",
+          "label": "新用户官方额度",
+          "pattern": "1亿 Tokens新用户注册登录客户端即领"
+        },
+        {
+          "page": "official-scnet-double11-new",
+          "label": "领取入口",
+          "pattern": "客户端「新人专享」入口领取 Tokens"
+        },
+        {
+          "page": "official-scnet-double11-new",
+          "label": "超额提示",
+          "pattern": "如不希望产生扣费，请在赠送 Tokens 用完前停止使用"
+        }
+      ],
+      "ends_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "id": "volc-ark-new",
+      "provider": "火山方舟",
+      "title": "火山方舟在线推理新人额度",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "开通参与模型可领新客 50 万 Tokens",
+      "eligibility": "注册火山引擎的新用户开通参与模型，具体型号和资源包看开通管理",
+      "timing": "首次开通赠送，具体有效期看资源包",
+      "no_upfront_payment": true,
+      "billing": "paid-overage",
+      "billing_note": "只抵扣资料列明的在线推理费用，用量完毕可能按价计费",
+      "checks": [
+        {
+          "page": "official-volc-ark-new",
+          "label": "限在线推理",
+          "pattern": "免费额度仅适用于抵扣按 token 后付费产生的在线推理费用"
+        },
+        {
+          "page": "official-volc-ark-new",
+          "label": "不抵扣批量",
+          "pattern": "免费额度无法抵扣 批量推理"
+        },
+        {
+          "page": "official-volc-billing",
+          "label": "官方新用户开通赠送口径",
+          "pattern": "仅新用户注册才会有，系统赠送新用户50万tokens，开通模型时自动领取"
+        }
+      ]
+    },
+    {
+      "id": "cloudbase-wechat-growth-ai",
+      "provider": "腾讯云开发",
+      "title": "微信小程序成长计划 AI 资源包",
+      "market": "cn",
+      "access": "platform",
+      "topics": [
+        "text",
+        "image"
+      ],
+      "cadence": "limited",
+      "amount": "第二期 10 亿 Token 和 10 万张生图额度",
+      "eligibility": "微信小程序账号报名成长计划，同一小程序只可参加一次",
+      "timing": "第二期截至 2026-12-31。AI 资源自申请成功起 6 个月有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "限小程序或云开发服务端；其他调用的套餐折抵规则看控制台",
+      "checks": [
+        {
+          "page": "official-cloudbase-wechat-growth-ai",
+          "label": "区分第二期额度与首期",
+          "pattern": "二期（2026-07-01 ~ 2026-12-31） Token 额度 1 亿 10 亿 图片生成额度 1 万张 10 万张"
+        },
+        {
+          "page": "official-cloudbase-wechat-growth-ai",
+          "label": "小程序及服务端使用范围",
+          "pattern": "自申请成功之日起 6 个月有效，仅限微信小程序和云开发服务端中使用"
+        },
+        {
+          "page": "official-cloudbase-wechat-growth-ai",
+          "label": "参与次数",
+          "pattern": "小程序[^。]{0,35}只能参与一次小程序成长计划"
+        }
+      ],
+      "ends_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "id": "siliconflow-bge-m3",
+      "provider": "硅基流动",
+      "title": "硅基流动 BGE 免费向量与重排",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "embeddings"
+      ],
+      "cadence": "open",
+      "amount": "bge-m3、bge-reranker-v2-m3、bge-large-zh-v1.5、bge-large-en-v1.5 官方单价为免费",
+      "eligibility": "硅基流动中国大陆站，实名认证后的免费模型",
+      "timing": "模型状态和速率上限以厂商模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超出模型限速时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "指定模型价目",
+          "pattern": "BAAI/bge-m3 免费 - -"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        },
+        {
+          "page": "sf",
+          "label": "bge-reranker-v2-m3 免费",
+          "pattern": "BAAI/bge\\-reranker\\-v2\\-m3 免费 - -"
+        },
+        {
+          "page": "sf",
+          "label": "bge-large-zh-v1.5 免费",
+          "pattern": "BAAI/bge\\-large\\-zh\\-v1\\.5 免费 - -"
+        },
+        {
+          "page": "sf",
+          "label": "bge-large-en-v1.5 免费",
+          "pattern": "BAAI/bge\\-large\\-en\\-v1\\.5 免费 - -"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-sensevoice",
+      "provider": "硅基流动",
+      "title": "硅基流动 SenseVoiceSmall 免费语音模型",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "open",
+      "amount": "官方单价为免费",
+      "eligibility": "硅基流动中国大陆站，实名认证后的免费模型",
+      "timing": "模型状态和速率上限以厂商模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超出模型限速时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "指定模型价目",
+          "pattern": "FunAudioLLM/SenseVoiceSmall.{0,60}免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        }
+      ]
+    },
+    {
+      "id": "doubao-desktop-checkin",
+      "provider": "豆包",
+      "title": "豆包电脑版签到福利",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text"
+      ],
+      "cadence": "daily",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-doubao-desktop-checkin",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "当前可读的官方条款是邀请奖励，签到规则须在客户端或匹配的官方活动页复核"
+    },
+    {
+      "id": "modelscope-daily-grain",
+      "provider": "魔搭社区",
+      "title": "魔搭社区日额度",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "daily",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-modelscope-daily-grain",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "官方发布页需渲染，先复核魔粒对 API 的适用范围和日重置"
+    },
+    {
+      "id": "mobileclaw-daily",
+      "provider": "移动云 MobileClaw",
+      "title": "MobileClaw 每日福利",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code",
+        "text"
+      ],
+      "cadence": "daily",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-mobileclaw-daily",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "活动页需要网页渲染或客户端确认"
+    },
+    {
+      "id": "rime-monthly",
+      "provider": "Rime",
+      "title": "Rime Free 月度语音额度",
+      "market": "international",
+      "access": "api",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "monthly",
+      "amount": "{amount} 美元用量/月",
+      "eligibility": "Rime Free 账号，无需信用卡，用于 Prism、Mist v3、Coda v2 与 Rime STT",
+      "timing": "每月自动刷新",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "官网列出可升级至按量付费 Flex，Free 到量时的请求行为以账户为准",
+      "checks": [
+        {
+          "page": "official-rime-monthly",
+          "label": "免费档月度金额",
+          "pattern": "\\$(?P<value>\\d+) of usage every month, renews monthly Prism",
+          "capture": "amount"
+        },
+        {
+          "page": "official-rime-monthly",
+          "label": "免费档无需信用卡",
+          "pattern": "Free Try every Rime model on real calls \\$0/mo No card required"
+        },
+        {
+          "page": "official-rime-monthly",
+          "label": "覆盖模型与升级路径",
+          "pattern": "Prism, Mist v3, Coda v2 and Rime STT Move to Flex when you need more"
+        }
+      ]
+    },
+    {
+      "id": "mobileclaw-monthly",
+      "provider": "移动云 MobileClaw",
+      "title": "MobileClaw 每月福利",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code",
+        "text"
+      ],
+      "cadence": "monthly",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-mobileclaw-daily",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "官方活动页需要网页渲染或客户端确认"
+    },
+    {
+      "id": "stepaudio-3-preview",
+      "provider": "阶跃星辰",
+      "title": "StepAudio 3 预览限免",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "limited",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-stepaudio-3-preview",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "官方价格页给出了限免结束时间，适用的预览模型及账号条件还需核对公告"
+    },
+    {
+      "id": "doubao-desktop-firsttrial",
+      "provider": "豆包",
+      "title": "豆包电脑版新人体验",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-doubao-desktop-firsttrial",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "对照条目链接至媒体报道，需在厂商页面或新版客户端确认"
+    },
+    {
+      "id": "mobileclaw-new",
+      "provider": "移动云 MobileClaw",
+      "title": "MobileClaw 新人权益",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code",
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-mobileclaw-daily",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "活动页需渲染或从产品内核对领取资格及模型"
+    },
+    {
+      "id": "buddyone-link-bonus",
+      "provider": "腾讯 WorkBuddy",
+      "title": "Buddy One 关联奖励",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-buddyone-link-bonus",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "账户关联活动页无可读领取规则，已取得产品积分说明；赠额须另行核验"
+    },
+    {
+      "id": "minicpm-ocr-preview",
+      "provider": "面壁智能",
+      "title": "MiniCPM OCR 体验",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "documents"
+      ],
+      "cadence": "limited",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-minicpm-ocr-preview",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "公开官网正文标注 MiniCPM-OCR-1.0 与 MiniCPM-OCR-Jev 限时免费，Python 未能读取正文，须用支持网页阅读的助手复核当前价目"
+    },
+    {
+      "id": "agnes-free-models",
+      "provider": "Agnes AI",
+      "title": "Agnes AI 限免模型",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text",
+        "image",
+        "video"
+      ],
+      "cadence": "limited",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-agnes-free-models",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "公开官网列出部分 Flash 模型的默认用户试用价，本机 Python 未能读取，须核对限免型号和密钥适用条件"
+    },
+    {
+      "id": "workbuddy-hy4flash-trial",
+      "provider": "腾讯 WorkBuddy",
+      "title": "WorkBuddy 混元限免体验",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "text"
+      ],
+      "cadence": "limited",
+      "amount": "",
+      "eligibility": "",
+      "timing": "",
+      "no_upfront_payment": null,
+      "billing": "unknown",
+      "billing_note": "",
+      "checks": [
+        {
+          "page": "official-workbuddy-hy4flash-trial",
+          "label": "官方入口已登记",
+          "pattern": "\\S"
+        }
+      ],
+      "review_note": "官方公告页需渲染或登录产品确认具体模型、每日额度和计费转换"
+    },
+    {
+      "id": "minimax-code-checkin",
+      "provider": "MiniMax",
+      "title": "MiniMax Code 客户端签到",
+      "market": "cn",
+      "access": "product",
+      "topics": [
+        "code"
+      ],
+      "cadence": "daily",
+      "amount": "400 积分/日；连续第 4、7 天额度另增",
+      "eligibility": "打开 MiniMax Code 签到；活动只适用客户端，H3 与 H3 Image 除外",
+      "timing": "每笔自到账起 30 天内有效",
+      "no_upfront_payment": true,
+      "billing": "unknown",
+      "billing_note": "此积分限 MiniMax Code 使用，用量在客户端核对",
+      "checks": [
+        {
+          "page": "official-minimax-code-checkin",
+          "label": "基础签到额度",
+          "pattern": "每日签到可领取 400 积分"
+        },
+        {
+          "page": "official-minimax-code-checkin",
+          "label": "第4、7天规则",
+          "pattern": "连续签到第 4 天、第 7 天，单日奖励加码至 1000 积分"
+        },
+        {
+          "page": "official-minimax-code-checkin",
+          "label": "限产品与具体模型",
+          "pattern": "仅限 MiniMax Code 使用（不包括 H3、H3 Image 模型）"
+        },
+        {
+          "page": "official-minimax-code-checkin",
+          "label": "积分取得后的期限",
+          "pattern": "签到积分可累计使用，自到账之日起 30 天内有效"
+        }
+      ]
+    },
+    {
+      "id": "bailian-qwen4max-new",
+      "title": "阿里云百炼新人额度 · qwen4-max",
+      "provider": "阿里云百炼",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "{amount} 万 Token",
+      "eligibility": "实名并首次开通，华北 2（北京）。用通用 API Key 做实时推理，实际余量看免费额度页",
+      "timing": "通常 {days} 天，从开通、模型发布或获批里较晚日期起算",
+      "no_upfront_payment": true,
+      "billing": "opt-in-stop",
+      "billing_note": "默认超额计费，有余量时可为目标模型开启用完即停",
+      "checks": [
+        {
+          "page": "bailian",
+          "label": "首次开通且无需购买",
+          "pattern": "首次开通阿里云百炼后由系统自动发放，无需手动领取或购买任何产品"
+        },
+        {
+          "page": "bailian",
+          "label": "地域和实名",
+          "pattern": "仅华北2（北京）地域模型享有免费额度，其他地域无免费额度。 开通阿里云百炼需先完成实名认证"
+        },
+        {
+          "page": "bailian",
+          "label": "额度有效期和起算规则",
+          "pattern": "免费额度的有效期为 (?P<value>\\d+) 天，从开通阿里云百炼、模型发布或模型申请通过之日起计算（以较晚者为准）",
+          "capture": "days"
+        },
+        {
+          "page": "bailian",
+          "label": "实时推理和通用 API Key",
+          "pattern": "实时调用时，系统将自动优先使用免费额度.{0,230}改用通用 API Key"
+        },
+        {
+          "page": "bailian",
+          "label": "超额默认计费",
+          "pattern": "免费额度用完后自动转为按量付费"
+        },
+        {
+          "page": "bailian",
+          "label": "用完即停默认关闭",
+          "pattern": "AllocationQuota\\.FreeTierOnly.{0,80}该功能默认关闭"
+        },
+        {
+          "page": "bailian-price",
+          "label": "目标模型的新人额度",
+          "pattern": "qwen4-max 缓存单价（每百万 Token） 非思考和思考模式 0<Token≤1M [\\d.]+元 [\\d.]+元 (?P<value>[\\d,]+)万\\s*Token",
+          "capture": "amount"
+        }
+      ]
+    },
+    {
+      "id": "bailian-qwen38max-new",
+      "title": "阿里云百炼新人额度 · qwen3.8-max",
+      "provider": "阿里云百炼",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "one-off",
+      "amount": "{amount} 万 Token",
+      "eligibility": "实名并首次开通，华北 2（北京）。用通用 API Key 做实时推理，实际余量看免费额度页",
+      "timing": "通常 {days} 天，从开通、模型发布或获批里较晚日期起算",
+      "no_upfront_payment": true,
+      "billing": "opt-in-stop",
+      "billing_note": "默认超额计费，有余量时可为目标模型开启用完即停",
+      "checks": [
+        {
+          "page": "bailian",
+          "label": "首次开通且无需购买",
+          "pattern": "首次开通阿里云百炼后由系统自动发放，无需手动领取或购买任何产品"
+        },
+        {
+          "page": "bailian",
+          "label": "地域和实名",
+          "pattern": "仅华北2（北京）地域模型享有免费额度，其他地域无免费额度。 开通阿里云百炼需先完成实名认证"
+        },
+        {
+          "page": "bailian",
+          "label": "额度有效期和起算规则",
+          "pattern": "免费额度的有效期为 (?P<value>\\d+) 天，从开通阿里云百炼、模型发布或模型申请通过之日起计算（以较晚者为准）",
+          "capture": "days"
+        },
+        {
+          "page": "bailian",
+          "label": "实时推理和通用 API Key",
+          "pattern": "实时调用时，系统将自动优先使用免费额度.{0,230}改用通用 API Key"
+        },
+        {
+          "page": "bailian",
+          "label": "超额默认计费",
+          "pattern": "免费额度用完后自动转为按量付费"
+        },
+        {
+          "page": "bailian",
+          "label": "用完即停默认关闭",
+          "pattern": "AllocationQuota\\.FreeTierOnly.{0,80}该功能默认关闭"
+        },
+        {
+          "page": "bailian-price",
+          "label": "目标模型的新人额度",
+          "pattern": "qwen3\\.8-max Batch调用半价 上下文缓存享有折扣 非思考和思考模式 0<Token≤1M [\\d.]+元 [\\d.]+元 (?P<value>[\\d,]+)万\\s*Token",
+          "capture": "amount"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-xingchen-voice",
+      "provider": "硅基流动",
+      "title": "硅基流动 XingChen 免费语音模型",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "audio"
+      ],
+      "cadence": "open",
+      "amount": "四个免费模型，覆盖语音合成、识别与说话人分离",
+      "eligibility": "硅基流动中国大陆站，实名认证后的免费模型",
+      "timing": "模型状态和速率上限以厂商模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超出模型限速时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "XingChenGSR-V1.0 免费",
+          "pattern": "XingChenAGI/XingChenGSR\\-V1\\.0.{0,45}免费"
+        },
+        {
+          "page": "sf",
+          "label": "XingChenASR-V3.2-Ultra 免费",
+          "pattern": "XingChenAGI/XingChenASR\\-V3\\.2\\-Ultra.{0,45}免费"
+        },
+        {
+          "page": "sf",
+          "label": "XingChenASR-Diarize-V3.0 免费",
+          "pattern": "XingChenAGI/XingChenASR\\-Diarize\\-V3\\.0.{0,45}免费"
+        },
+        {
+          "page": "sf",
+          "label": "XingChenASR-V3.2 免费",
+          "pattern": "XingChenAGI/XingChenASR\\-V3\\.2.{0,45}免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        }
+      ]
+    },
+    {
+      "id": "siliconflow-free-text",
+      "provider": "硅基流动",
+      "title": "硅基流动翻译与对话免费模型",
+      "market": "cn",
+      "access": "api",
+      "topics": [
+        "text"
+      ],
+      "cadence": "open",
+      "amount": "Hunyuan-MT-7B 与 Xing4.0-29B 输入、输出单价均免费",
+      "eligibility": "硅基流动中国大陆站，实名认证后的免费模型",
+      "timing": "模型状态和速率上限以厂商模型广场为准",
+      "no_upfront_payment": null,
+      "billing": "stops",
+      "billing_note": "超出模型限速时请求受限，免费模型调用费用为 0",
+      "checks": [
+        {
+          "page": "sf",
+          "label": "tencent/Hunyuan-MT-7B 输入输出免费",
+          "pattern": "tencent/Hunyuan\\-MT\\-7B 免费 免费"
+        },
+        {
+          "page": "sf",
+          "label": "XingChenAGI/Xing4.0-29B 输入输出免费",
+          "pattern": "XingChenAGI/Xing4\\.0\\-29B 免费 免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "实名认证后可用",
+          "pattern": "实名认证后使用全部的免费模型"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型用量价格",
+          "pattern": "免费模型调用免费"
+        },
+        {
+          "page": "sf-limits",
+          "label": "免费模型限流",
+          "pattern": "当前免费模型 Rate Limits 指标是固定值"
+        }
+      ]
+    }
+  ]
+}
